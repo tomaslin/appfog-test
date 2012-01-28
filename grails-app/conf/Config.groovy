@@ -10,9 +10,6 @@
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
 // }
 
-grails.plugin.cloudfoundry.username = "tomaslin@gmail.com"
-grails.plugin.cloudfoundry.password = "d9670696"
-grails.plugin.cloudfoundry.target = "http://api.aws.af.cm"
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 grails.mime.file.extensions = true // enables the parsing of file extensions from URLs into the request format
@@ -37,6 +34,7 @@ grails.mime.types = [ html: ['text/html','application/xhtml+xml'],
 // What URL patterns should be processed by the resources plugin
 grails.resources.adhoc.patterns = ['/images/*', '/css/*', '/js/*', '/plugins/*']
 
+grails.test='blah'
 
 // The default codec used to encode data with ${}
 grails.views.default.codec = "none" // none, html, base64
